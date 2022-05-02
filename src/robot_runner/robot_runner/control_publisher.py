@@ -22,7 +22,7 @@ import math
 from tf_transformations import euler_from_quaternion
 
 
-class MinimalPublisher(Node):
+class ControlPublisher(Node):
     def __init__(self):
         super().__init__('movement')
         self.publisher_ = self.create_publisher(Twist, 'cmd_vel', 100)
@@ -99,7 +99,7 @@ class MinimalPublisher(Node):
 def main(args=None):
     rclpy.init(args=args)
 
-    minimal_publisher = MinimalPublisher()
+    minimal_publisher = ControlPublisher()
     # print(robot_pose)
 
     rclpy.spin(minimal_publisher)
