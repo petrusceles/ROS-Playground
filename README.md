@@ -1,6 +1,6 @@
 # ros-playground
 
-Package to move turtlebot3 based on defined trajectory function
+Package to move turtlebot3 based on defined trajectory equation
 
 Robotics subject assignment in University
 
