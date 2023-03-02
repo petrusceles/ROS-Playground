@@ -2,7 +2,7 @@
 
 Package to move turtlebot3 based on defined trajectory equation
 
-Robotics subject assignment in University
+Robotics subject assignment
 
 You can change the equation from generate_position() function in controller_publisher.py
 
